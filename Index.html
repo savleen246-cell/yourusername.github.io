@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>3D Cartoon Video Maker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            margin: 0;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+        }
+        .video-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .video-item {
+            flex: 1 1 45%;
+            background: #fff;
+            padding: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        iframe {
+            width: 100%;
+            height: 250px;
+        }
+        @media(max-width: 768px){
+            .video-item {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>3D Cartoon Video Maker</h1>
+    <nav>
+        <a href="#create">Create Video</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="create">
+    <h2>Create Your 3D Cartoon Video</h2>
+    <p>Use free tools like Animaker, Blender, or Powtoon to make your videos. Upload them to YouTube or Vimeo, then embed them here!</p>
+</section>
+
+<section id="gallery">
+    <h2>Video Gallery</h2>
+    <div class="video-gallery">
+        <!-- Replace these YouTube links with your own videos -->
+        <div class="video-item">
+            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+            <p>Sample 3D Cartoon Video 1</p>
+        </div>
+        <div class="video-item">
+            <iframe src="https://www.youtube.com/embed/3JZ_D3ELwOQ" frameborder="0" allowfullscreen></iframe>
+            <p>Sample 3D Cartoon Video 2</p>
+        </div>
+        <div class="video-item">
+            <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" frameborder="0" allowfullscreen></iframe>
+            <p>Sample 3D Cartoon Video 3</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>Send your feedback or questions to <a href="mailto:email@example.com">email@example.com</a></p>
+</section>
+
+<footer>
+    <p>&copy; 2024 3D Cartoon Video Maker</p>
+</footer>
+
+</body>
+</html>
